@@ -15,3 +15,12 @@ To run the game, you will need:
 
 * JavaFX SDK
 
+## Screenshots  
+<img src="screenshots/titlescreen.png" width="400"/>  
+<img src="screenshots/placebet.png" width="400"/>  
+<img src="screenshots/gameplay1.png" width="400"/>  
+<img src="screenshots/gameplay2.png" width="400"/>  
+<img src="screenshots/gameplay3.png" width="400"/>  
+<img src="screenshots/gameplay4.png" width="400"/>  
+<img src="screenshots/gameover.png" width="400"/>  
+
