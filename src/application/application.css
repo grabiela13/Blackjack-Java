@@ -1,0 +1,25 @@
+.root {
+    -fx-background-image: url("resources/background.png");
+    -fx-background-size: cover;
+}/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.button {
+    -fx-background-color: #333, linear-gradient(#000000, #434343);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0, 1;
+    -fx-text-fill: white; /* Ensure text is visible */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 1);
+    -fx-padding: 10 20 10 20;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+    -fx-cursor: hand; /* Changes the cursor to a pointer */
+}
+
+.button:hover {
+    -fx-background-color: #555, linear-gradient(#666666, #888888); /* Lighter color on hover */
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 15, 0.5, 0, 1); /* Brighter shadow */
+    -fx-text-fill: lightgray; /* Change text color on hover */
+}
+
